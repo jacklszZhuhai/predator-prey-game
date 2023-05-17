@@ -1,0 +1,2 @@
+#!/bin/bash
+nohup python -u train.py --num_agents 9 --n_rollout_threads 4 --ppo_epoch 15 --lr 1e-5 --comm_dis 3 --experiment_name noattn_a9_n4_ep15_lre5_cl3_2 > noattn_a9_n4_ep15_lre5_cl3_2.log  2>&1 &

@@ -1,0 +1,10 @@
+algorithm文件夹：
+mappo的主要架构，
+    其中r_actor_critic里是具体actor网络和critic网络的结构，
+    r_mappo里是训练的主体代码，
+    rMAPPOPolicy里对mappo进行了包装
+utils文件夹：
+    用到的有act.py，是actor的隐藏层转动作输出的网络；
+    distributions.py，其中DiagGaussian函数是actor网络的最终输出，高斯分布取样；
+    mlp.py，MLP网络架构；
+    att，attention网络架构；

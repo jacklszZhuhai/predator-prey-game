@@ -1,0 +1,2 @@
+#!/bin/bash
+nohup python38 -u train.py --use_attn --num_agents 7 --n_rollout_threads 20 --num_env_steps 500000 --lr 1e-4 --critic_lr 1e-4 --comm_dis 2 --episode_length 100 --hidden_size 256 --att_hidden 256 --est_gama 2 --layer_N 2 --experiment_name at_a7_h256_cl2_atoc_est2 > ./0322/at_a7_h256_cl2_atoc_est2.log  2>&1 &
